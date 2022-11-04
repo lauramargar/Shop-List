@@ -57,10 +57,17 @@ export default defineComponent({
   padding: 10px;
   border: 0;
 }
-#shop-wrap input[type=button], #shop-wrap input[type=submit] {
+#item-add{
   cursor: pointer;
-  color: #fff;
   background: #5a75d6;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #shop-form, .item-row {
   display: flex;
@@ -89,7 +96,17 @@ export default defineComponent({
   font-weight: bold;
   color: #00d036;
 }
-.item-del { background: #de1919 !important; }
+#item-del { 
+  background: #df4343; 
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 /* [DOES NOT MATTER] */
 * { font-family: arial, sans-serif; }
